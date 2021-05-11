@@ -6,14 +6,9 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          key="google-fonts"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
           rel="stylesheet"
-          key="google-fonts-roboto"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          key="google-fonts"
         />
       </Head>
       <Component {...pageProps} />
