@@ -1,0 +1,19 @@
+@import "styles/mixins";
+
+.header {
+  background-color: var(--color-dark-blue);
+  height: 8rem;
+  display: flex;
+  align-items: center;
+
+  &__container {
+    @include container;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__logo {
+    height: 6rem;
+    margin-left: 3rem;
+  }
+}
