@@ -1,4 +1,5 @@
 import Header from "components/Header";
+import Navbar from "components/Navbar";
 import styles from "./Index.module.scss";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <Header />
       <div className={styles.container}>
         <h1 className={styles.title}>Manage Campaigns</h1>
+        <Navbar />
       </div>
     </div>
   );
