@@ -45,6 +45,7 @@ function Navbar({ tab, setTab }: Props) {
           Past Campaigns
         </li>
       </ul>
+      <div className={styles.nav__line} />
     </nav>
   );
 }
